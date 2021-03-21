@@ -2,7 +2,7 @@
 
 🔥U0 [🏠](https://u00938.github.io/)
 
-🐥해나 [🏠]()
+🐥해나 [🏠](https://velog.io/@seulgea)
 
 ☠️지땅 [🏠](https://sleepybird.tistory.com/)
 
