@@ -8,6 +8,10 @@
 
 🐧무나 [🏠](https://blog.munawiki.dev/)
 
+🐰와니 [🏠](https://velog.io/@choijw1116)
+
+☠️코공 [🏠](https://sangkwon-lee.github.io/)
+
 <br>
 
 ## 코딩 테스트
