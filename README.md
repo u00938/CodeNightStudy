@@ -6,7 +6,7 @@
 
 ☠️지땅 [🏠](https://sleepybird.tistory.com/)
 
-🐧무나 [🏠](https://blog.munawiki.dev/)
+🐧MUNA [🏠](https://blog.munawiki.dev/)
 
 🐰와니 [🏠](https://velog.io/@choijw1116)
 
