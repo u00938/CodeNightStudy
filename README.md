@@ -12,7 +12,7 @@
 
 ☠️코공 [🏠](https://sangkwon-lee.github.io/)
 
-🍿준석 [🏠]()
+🍿준석 [🏠Notion](https://www.notion.so/juniorcoding/To-Dare-Is-To-Do-b2ed14dc4e6c453f8e3e885f94f5e92b) [🏠Velog](https://velog.io/@wnstjr0317)
 
 <br>
 
