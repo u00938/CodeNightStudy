@@ -1,0 +1,36 @@
+<html>
+	<head>
+		<meta charset="UTF-8" />
+		<title>출력결과</title>
+	</head>
+	<body>
+		<script>
+			function solution(a, b, c) {
+				let arr = [a, b, c];
+				let min = 0;
+				for (let i = 1; i <= arr.length; i++) {
+					if (i === 1) {
+						if (arr[i - 1] < arr[i]) {
+							min = arr[i - 1];
+						} else {
+							min = arr[i];
+						}
+					} else {
+						if (arr[i] < min) {
+							min = arr[i];
+						}
+					}
+				}
+				return min;
+			}
+			/*
+			let answer;
+                if(a<b) answer=a;
+                else answer=b;
+                if(c<answer) answer=c; 
+                return answer;
+			*/
+			console.log(solution(6, 5, 11));
+		</script>
+	</body>
+</html>

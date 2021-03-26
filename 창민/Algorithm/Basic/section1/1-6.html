@@ -1,0 +1,40 @@
+<html>
+	<head>
+		<meta charset="UTF-8" />
+		<title>출력결과</title>
+	</head>
+	<body>
+		<script>
+			function solution(arr) {
+				let answer = [];
+				let temp = [];
+				let min = 0;
+				let sum = 0;
+				for (let i = 0; i < arr.length; i++) {
+					if (arr[i] % 2 === 1) {
+						temp.push(arr[i]);
+					}
+				}
+
+				for (let i = 0; i < temp.length; i++) {
+					if (i === 0) {
+						sum += temp[i];
+						min = temp[i];
+					} else {
+						if (min > temp[i]) {
+							sum += temp[i];
+							min = temp[i];
+						} else {
+							sum += temp[i];
+						}
+					}
+				}
+				answer = [sum, min];
+				return answer;
+			}
+
+			arr = [12, 77, 38, 41, 53, 92, 85];
+			console.log(solution(arr));
+		</script>
+	</body>
+</html>
