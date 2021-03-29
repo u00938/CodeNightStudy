@@ -1,0 +1,23 @@
+<html>
+	<head>
+		<meta charset="UTF-8" />
+		<title>출력결과</title>
+	</head>
+	<body>
+		<script>
+			function solution(s) {
+				let answer;
+				let arr = s.split("");
+
+				if (arr.length % 2 === 1) {
+					answer = arr[Math.floor(arr.length / 2)];
+				} else {
+					answer = arr.slice(arr.length / 2 - 1, arr.length / 2 + 1).join("");
+				}
+
+				return answer;
+			}
+			console.log(solution("goddod"));
+		</script>
+	</body>
+</html>

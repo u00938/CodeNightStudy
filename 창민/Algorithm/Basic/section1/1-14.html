@@ -1,0 +1,30 @@
+<html>
+	<head>
+		<meta charset="UTF-8" />
+		<title>출력결과</title>
+	</head>
+	<body>
+		<script>
+			function solution(s) {
+				let answer = "",
+					max = Number.MIN_SAFE_INTEGER;
+				max = 0;
+				maxStr = "";
+				for (let i = 0; i < s.length; i++) {
+					let arr = s[i].split("");
+					if (i === 0) {
+						max = arr.length;
+						maxStr = s[i];
+					} else if (arr.length > max) {
+						max = arr.length;
+						maxStr = s[i];
+					}
+				}
+				answer = maxStr;
+				return answer;
+			}
+			let str = ["teacher", "time", "student", "beautiful", "good"];
+			console.log(solution(str));
+		</script>
+	</body>
+</html>
