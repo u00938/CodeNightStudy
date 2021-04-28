@@ -4,7 +4,7 @@
 
 🐥해나 [🏠](https://velog.io/@seulgea)
 
-☠️지땅 [🏠](https://sleepybird.tistory.com/)
+☠️지땅 [🏠](https://sleepybird.tistory.com/) 🥳🎉👨‍🎓
 
 🐰와니 [🏠](https://velog.io/@choijw1116)
 
